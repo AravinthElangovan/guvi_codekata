@@ -2,13 +2,13 @@
 #include <conio.h>
 void main()
 {
-int i, j, a, n,del,count=0,num,ncheck;
+int i, j, a, n,k,count=0,num,ncheck;
 int number[30];
 clrscr();
 printf("\n Enter the number:");
 scanf("%d",&num);
 printf("\n Enter the digits to be deleted: ");
-scanf("%d",&del);
+scanf("%d",&k);
 ncheck=num;
 while(ncheck!=0)
 {
@@ -16,7 +16,7 @@ ncheck/=10;
 ++count;
 }
 n=count;
-if(del<=count)
+if(k<=count)
 {
 for(i=count-1;i>=0;i--)
 {
@@ -35,8 +35,8 @@ number[j] = a;
 }
 }
 }
-printf("\nThe least integer after deleting %d digits is: ",del);
-for(i=0;i<count-del;i++)
+printf("\nThe least integer after deleting %d digits is: ",k);
+for(i=0;i<count-k;i++)
 {
 printf("%d",number[i]);
 }
@@ -45,3 +45,4 @@ else
 printf("\n Invalid Digits");
 getch();
 }
+
