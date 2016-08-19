@@ -18,6 +18,8 @@ M[i].avg=(float)M[i].total/3;
 }
 if(M[0].total>M[1].total)
 printf("%s",M[0].name);
+else if(M[0].total==M[1].total)
+printf("\n%s and %s got Equal marks",M[0].name,M[1].name);
 else
 printf("%s",M[1].name);
 getch();
