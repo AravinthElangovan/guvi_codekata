@@ -1,0 +1,65 @@
+#include<stdio.h>
+void main()
+{
+char a[100];
+int d,i,n;
+printf("Enter the size of the digits to be entered");
+scanf("%d",&n);
+for(i=0;i<n;i++){
+    scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++){
+    if(a[i]==1)
+        printf("a");
+    if(a[i]==2)
+        printf("b");
+    if(a[i]==3)
+        printf("c");
+    if(a[i]==4)
+        printf("d");
+    if(a[i]==5)
+        printf("e");
+    if(a[i]==6)
+        printf("f");
+    if(a[i]==7)
+        printf("g");
+    if(a[i]==8)
+        printf("h");
+    if(a[i]==9)
+        printf("i");
+    if(a[i]==10)
+        printf("j");
+    if(a[i]==11)
+        printf("k");
+    if(a[i]==12)
+        printf("l");
+    if(a[i]==13)
+        printf("m");
+    if(a[i]==14)
+        printf("n");
+    if(a[i]==15)
+        printf("o");
+    if(a[i]==16)
+        printf("p");
+    if(a[i]==17)
+        printf("q");
+    if(a[i]==18)
+        printf("r");
+    if(a[i]==19)
+        printf("s");
+    if(a[i]==20)
+        printf("t");
+    if(a[i]==21)
+        printf("u");
+    if(a[i]==22)
+        printf("v");
+    if(a[i]==23)
+        printf("w");
+    if(a[i]==24)
+        printf("x");
+    if(a[i]==25)
+        printf("y");
+    if(a[i]==26)
+        printf("z");
+}
+}
